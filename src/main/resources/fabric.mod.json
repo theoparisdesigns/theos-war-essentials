@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "theoswaressentials",
+  "version": "${version}",
+  "name": "Theos War Essentials",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "homepage": "https://github.com/theoparisdesigns/theos-war-essentials"
+  },
+  "license": "MIT",
+  "icon": "assets/theoswaressentials/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.theoparis.theoswaressentials.client.TheosWarEssentialsClient"
+    ],
+    "main": [
+      "com.theoparis.theoswaressentials.TheosWarEssentials"
+    ]
+  },
+  "mixins": [
+    "theoswaressentials.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}
